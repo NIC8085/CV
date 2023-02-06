@@ -1,13 +1,189 @@
-<!DOCTYPE html>
-<html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KM CV</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Strona KM</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   strona w budowie
+
+<body id="body" data-spy="scroll" data-target="#navigation" data-offset="30">
+    <div id="header" class="container-fluid d-flex">
+
+        <div class="menu-overlay"></div>
+
+        <div class="menu">
+        <div class="toggler">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <ul class="nav-content" id="navigation">
+            <li><a class="nav-link" href="#header">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop">CV</a>
+            <div id="dropdown-menu">
+                <ul>
+                <li><a class="dropdown-item" href="#cv">Skills</a></li>
+                <li><a class="dropdown-item" href="#experience">Experience</a></li>
+                <li><a class="dropdown-item" href="#education">Education</a></li>
+                </ul>
+            </div>
+            </li>
+            <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+            <div>
+                <h1>Kacper Markowski</h1>
+                <hr>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 picture">
+                <img src="ja.png" class="rounded-circle" alt="picture">
+                </div>
+                <div class="col-md-9 col-sm-12 offset-md-1">
+                <h2>About</h2>
+                <p>My name is Kacper and im in 3rd class of technical school. I like to waste my time, play video games and go to Mr. Adam lessons.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+        <div class="container-fluid" id="cv">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-12">
+                    <h3>Skills</h3>
+                    </div>
+                    <div class="col-md-9 col-sm-12 offset-md-1">
+                        <div class="skills">
+                            <h4>Programming languages</h4>
+
+                            <div class="skill-item">
+                                <p>C++</p>
+                                <div><h5>Basic</h5></div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p>Python</p>
+                                <div><h5>Basic</h5></div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p>Java</p>
+                                <div><h5>Basic</h5></div>
+                            </div>
+                            <div class="skill-item">
+                                <p>SQL</p>
+                                <div><h5>Intermediate</h5></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <h4>Languages</h4>
+                            <div class="skill-item">
+                                <p>Polish</p>
+                                <div><h5>Native</h5></div>
+                            </div>
+                            <div class="skill-item">
+                                <p>English</p>
+                                <div><h5>Intermediate</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr id="experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-12">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="col-md-9 col-sm-12 offset-md-1">
+                        <div class="exp">
+                            <div class="box">
+                                <h4>Internships</h4>
+                                <h6>IT Firm&emsp;&#8226;&emsp;Sep 2021</h6>
+                                <p>Computer servicing and technical support for other companies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr id="education">
+
+                <div class="row">
+                    <div class="col-md-2 col-sm-12">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="col-md-9 col-sm-12 offset-md-1">
+                        <div class="box">
+                            <h4>Technical school</h4>
+                            <h6>Technikum Teb Edukacja Wrocław&emsp;&#8226;&emsp;Sep 2020 - Now</h6>
+                            <p>Programmer technician</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="portfolio">
+        <h2>My projects</h2>
+        
+        <div class="container">
+            <h4 class="notyet">Nothing yet :)</h4>
+            <div class="row">
+                <!--
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd1c3895999a4f9c5e4ac57e6e9fa2fb&auto=format&fit=crop&w=1950&q=80">
+                    <div class="overlay">
+                        <h3 class="project-title">Project name</h3>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="footer-content">
+            <div>
+                <h4>Email</h4>
+                <p>kacper.markowski2005@gmail.com</p>
+            </div>
+
+            <div>
+                <h4>Phone</h4>
+                <p>123 456 789</p>
+            </div>
+
+            <div>
+                <h4>Social</h4>
+                <a href="https://github.com/NIC8085" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
