@@ -6,7 +6,6 @@ $('#navigation a').on('click', function(e) {
   }, 1000);
 });
 
-
 $('.toggler, .nav-content a:not(#dropdown-link)').on('click', function(){
   $('.toggler').toggleClass('change');
   $('.nav-content').slideToggle();
